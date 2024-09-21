@@ -38,8 +38,8 @@ def push_code_to_github(repo_url, token):
         run_git_command(['git', 'commit', '-m', 'Update project files'],
                         "Committing changes")
 
-        # Push the changes to GitHub
-        run_git_command(['git', 'push', 'origin', 'main'],
+        # Push the changes to GitHub using token-authenticated URL
+        run_git_command(['git', 'push', auth_repo_url, 'main'],
                         "Pushing changes to GitHub")
 
         logger.info("Successfully pushed code to GitHub")
