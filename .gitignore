@@ -1,3 +1,4 @@
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -6,59 +7,38 @@ __pycache__/
 # C extensions
 *.so
 
-# Packages
-*.egg
-*.egg-info/
-dist/
-build/
-eggs/
-parts/
-var/
-sdist/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Python virtual environment
+# Virtual environments
 venv/
 env/
 .venv/
 .env/
 
-# Kaggle configuration file
+# Kaggle configuration files
 .kaggle/
 
 # Replit configuration files
 .replit
 replit.nix
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Archive files
+# Dataset and large files
 *.zip
 *.tar.gz
 *.rar
-
-# Log files
-*.log
-
-# SQLite database files
-*.db
-*.sqlite3
-
-# Dataset files
-*.xlsx
 *.csv
+*.xlsx
 
-# System files
+# Ignore archive files
+archive.zip
+
+# Other system files
 .DS_Store
 Thumbs.db
 
-# Poetry lock file
-poetry.lock
+# Logs
+*.log
 
-# Pyproject.toml file can be included or excluded depending on the requirements.
-# Uncomment the line below if you don't want to include it.
-# pyproject.toml
+# Node.js specific (if you have frontend code)
+node_modules/
+
+# Python poetry lock file
+poetry.lock
