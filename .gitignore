@@ -1,1 +1,64 @@
-.zip
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Python virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Kaggle configuration file
+.kaggle/
+
+# Replit configuration files
+.replit
+replit.nix
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Archive files
+*.zip
+*.tar.gz
+*.rar
+
+# Log files
+*.log
+
+# SQLite database files
+*.db
+*.sqlite3
+
+# Dataset files
+*.xlsx
+*.csv
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Poetry lock file
+poetry.lock
+
+# Pyproject.toml file can be included or excluded depending on the requirements.
+# Uncomment the line below if you don't want to include it.
+# pyproject.toml
