@@ -4,6 +4,9 @@
 
 The **YouTube Comment Insights Analyzer** is a tool designed to extract, analyze, and visualize insights from YouTube video comments. It leverages machine learning and AI techniques to provide valuable feedback about the sentiment, emotion, and topics discussed in YouTube video comments. The tool can also generate AI-powered images to represent visual insights based on the comments.
 
+# Live Demo
+[Live Site Link](https://demo.binarybeat.org)
+
 ## Features
 
 - **Sentiment Analysis**: Analyze the overall sentiment of the comments (positive, negative, or neutral).
